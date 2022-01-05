@@ -18,7 +18,7 @@ export default function Dog() {
 
   return (
     <div>
-      <DogDetail dog={dog} />
+      <h3>my name is {name}</h3>
     </div>
   );
 }

@@ -1,14 +1,15 @@
 /// Map through props and display a dog for each
 import React from 'react';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 export default function DogList({ dogs }) {
   return (
     <div className="Dogs">
+      <h1>Bing Bong</h1>
       {dogs.map((dog) => (
-        <Link key={dog.id} to={`/dogs/${dog.id}`}>
-          {dog.name}
-        </Link>
+        <div key={dog.id}>
+          <h2>{dog.name}</h2>
+          <img src={dog.image} />
+        </div>
       ))}
     </div>
   );
