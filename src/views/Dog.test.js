@@ -8,7 +8,7 @@ test('renders each dog', async () => {
       <Route path="/dogs/:id" component={Dog} />
     </MemoryRouter>
   );
-  await screen.findByText('Name: Barton');
+  await screen.findByText('My Name is Barton');
 
   expect(container).toMatchSnapshot();
 });

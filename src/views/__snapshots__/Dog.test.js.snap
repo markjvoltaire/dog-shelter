@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders each dog 1`] = `
+<div>
+  <div>
+    <div>
+      <h1>
+        My Name is 
+        Barton
+      </h1>
+      <img
+        src="https://placedog.net/500?id=6"
+      />
+      <h2>
+        Get To Know Me:
+      </h2>
+      <p>
+        Adores every person he meets. Very social and lots of energy
+      </p>
+    </div>
+  </div>
+</div>
+`;
