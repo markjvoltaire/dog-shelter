@@ -1,4 +1,4 @@
-import { client, checkError } from './client';
+
 
 /// in here we should have two functions
 // 1. fetchDogs() where we will be grabbing all the dogs from supabase
