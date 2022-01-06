@@ -1,9 +1,8 @@
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter } from 'react-router-dom';
 
 import { NavLink, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Dogs from './views/Dogs';
-import DogList from './components/DogList';
 import Dog from './views/Dog';
 
 function App() {
