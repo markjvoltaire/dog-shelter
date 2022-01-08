@@ -5,3 +5,24 @@
 .dogs {
   padding-left: 600px;
 }
+
+.App {
+  background-color: aqua;
+}
+
+.header {
+  color: orange;
+  font-family: fantasy;
+}
+
+.bio {
+  font-size: 30px;
+  color: orange;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+
+.age {
+  font-size: 25px;
+  color: orange;
+}
