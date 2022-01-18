@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 
 export default function Dog() {
   const [dog, setDog] = useState([]);
-  const [loading, setLoading] = useState([true]);
+  const [loading, setLoading] = useState(true);
   const params = useParams();
 
   useEffect(() => {

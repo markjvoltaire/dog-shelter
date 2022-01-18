@@ -4,6 +4,7 @@ import { createDog } from '../services/dogs';
 
 export default function AdminForm() {
   const [dog, setDog] = useState({});
+
   const updateDogState = (key, value) => {
     dog[key] = value;
     setDog({ ...dog });

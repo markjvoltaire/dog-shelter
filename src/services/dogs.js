@@ -21,5 +21,3 @@ export async function createDog(dog) {
 
   return checkError(resp);
 }
-
-// 2. fetchDogsById() where we will be grabbing each dog by it's id
